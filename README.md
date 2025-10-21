@@ -1,7 +1,9 @@
 # ⚡ Automatización de Tareas del Entorno de Desarrollo
 
 👤 Autor: Juan Gabriel Pared
+
 📚 Materia: Metodología de Sistemas II
+
 📁 Proyecto: Automatización de tareas repetitivas y análisis de calidad de código
 
 ---
