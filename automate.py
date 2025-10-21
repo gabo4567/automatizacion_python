@@ -10,6 +10,7 @@ RELEASE_FOLDER = "release"
 IMAGES_FOLDER = "images"
 DAYS_TO_KEEP_LOGS = 7
 
+
 # ----- LIMPIAR ARCHIVOS TEMPORALES Y LOGS -----
 def clean_temp_and_logs():
     print("🧹 Limpiando archivos temporales y logs antiguos...")
@@ -29,6 +30,7 @@ def clean_temp_and_logs():
                     os.remove(path)
                     print(f"  - Borrado temporal: {path}")
 
+
 # ----- COPIAR ARCHIVOS A RELEASE -----
 def copy_to_release():
     print("📦 Copiando archivos a carpeta release...")
@@ -36,6 +38,7 @@ def copy_to_release():
         shutil.rmtree(RELEASE_FOLDER)
     shutil.copytree(SOURCE_FOLDER, RELEASE_FOLDER)
     print(f"  - Archivos copiados a '{RELEASE_FOLDER}/'")
+
 
 # ----- COMPRIMIR IMÁGENES -----
 def compress_images():
@@ -49,6 +52,7 @@ def compress_images():
             img = Image.open(path)
             img.save(path, optimize=True, quality=70)
             print(f"  - Comprimida: {file}")
+
 
 # ----- EJECUCIÓN -----
 if __name__ == "__main__":
