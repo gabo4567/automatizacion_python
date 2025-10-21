@@ -1,10 +1,12 @@
-###⚡ Automatización de Tareas del Entorno de Desarrollo###
+### ⚡ Automatización de Tareas del Entorno de Desarrollo
 
 👤 Autor: Juan Gabriel Pared
 📚 Materia: Metodología de Sistemas II
 📁 Proyecto: Automatización de tareas repetitivas y análisis de calidad de código
 
-📝 Descripción
+---
+
+### 📝 Descripción
 
 Este proyecto tiene como objetivo automatizar tareas repetitivas del entorno de desarrollo y mejorar la calidad del código mediante herramientas de análisis. Entre las tareas automatizadas se incluyen:
 
@@ -26,7 +28,9 @@ Además, se integran herramientas para mantener y medir la calidad del código:
 
 🔁 Detección de código duplicado con jscpd.
 
-📂 Estructura del Proyecto
+---
+
+### 📂 Estructura del Proyecto
 AUTOMATIONS
 ├── .github/workflows/        # CI/CD (GitHub Actions)
 ├── tests/                    # Tests unitarios
@@ -37,7 +41,9 @@ AUTOMATIONS
 ├── radon-report.txt          # Ejemplo de reporte de Radon
 └── .pre-commit-config.yaml   # Configuración de pre-commit hooks
 
-🚀 Uso
+---
+
+### 🚀 Uso
 
 Activar el entorno virtual:
 
@@ -51,7 +57,7 @@ python tools/check_quality.py
 
 Ejecutar tareas individuales del script automate.py según necesidad (limpieza de logs, copiado a release, compresión de imágenes).
 
-🛠️ Herramientas principales
+# 🛠️ Herramientas principales
 
 Python 3.x
 
